@@ -9003,7 +9003,7 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     peggy: "npm:4.1.1"
     prettier: "npm:~3.3.3"
-    prettier-plugin-pegjs: "npm:~0.5.4"
+    prettier-plugin-pegjs: "npm:~2.0.2"
     rimraf: "npm:^6.0.1"
     tldts: "npm:~6.1.61"
     ts-loader: "npm:~9.5.1"
@@ -12911,6 +12911,15 @@ __metadata:
   version: 14.18.63
   resolution: "@types/node@npm:14.18.63"
   checksum: 10/82a7775898c2ea6db0b610a463512206fb2c7adc1af482c7eb44b99d94375fff51c74f67ae75a63c5532971159f30c866a4d308000624ef02fd9a7175e277019
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.5.6":
+  version: 20.17.6
+  resolution: "@types/node@npm:20.17.6"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10/714b8b54951950cee662ce80492831ebc51f914a9adf88583cea777ea4d55b88827b2505ff2f53d2bb7753691aaab1b06c027a7b5c63eb153ad4acee1239690c
   languageName: node
   linkType: hard
 
@@ -32227,16 +32236,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-pegjs@npm:~0.5.4":
-  version: 0.5.4
-  resolution: "prettier-plugin-pegjs@npm:0.5.4"
+"prettier-plugin-pegjs@npm:~2.0.2":
+  version: 2.0.2
+  resolution: "prettier-plugin-pegjs@npm:2.0.2"
   dependencies:
-    prettier: "npm:^2.8.4"
-  checksum: 10/d299a37e4ba03aeea4ba261a8efeec43403dbec345d192c13a9f73e7dbb1625863c4a3e6f4affd1b0b22139619b6534216cead68aa3cec56517e43b831ddacd8
+    "@types/node": "npm:^20.5.6"
+    prettier: "npm:^3.0.2"
+  checksum: 10/418ae45f2c41acefbd44ddf78110cb95d95b16a3f2febb291ef6a2ef58987f86072885973dd963fa2f60516a1fd578d69fe2bd09ecc5a6697e381f5bd8c8a58d
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.7.1, prettier@npm:^2.8.4":
+"prettier@npm:^2.7.1":
   version: 2.8.8
   resolution: "prettier@npm:2.8.8"
   bin:
@@ -32245,7 +32255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:~3.3.3":
+"prettier@npm:^3.0.2, prettier@npm:~3.3.3":
   version: 3.3.3
   resolution: "prettier@npm:3.3.3"
   bin:
