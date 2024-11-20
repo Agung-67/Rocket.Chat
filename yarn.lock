@@ -9236,7 +9236,7 @@ __metadata:
     date-fns: "npm:^2.30.0"
     date.js: "npm:~0.3.3"
     debug: "npm:~4.3.7"
-    docker-compose: "npm:^0.24.8"
+    docker-compose: "npm:^1.1.0"
     dompurify: "npm:^3.2.0"
     ejson: "npm:^2.2.3"
     emailreplyparser: "npm:^0.0.5"
@@ -19670,12 +19670,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"docker-compose@npm:^0.24.8":
-  version: 0.24.8
-  resolution: "docker-compose@npm:0.24.8"
+"docker-compose@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "docker-compose@npm:1.1.0"
   dependencies:
     yaml: "npm:^2.2.2"
-  checksum: 10/2b8526f9797a55c819ff2d7dcea57085b012b3a3d77bc2e1a6b45c3fc9e82196312f5298cbe8299966462454a5ac8f68814bb407736b4385e0d226a2a39e877a
+  checksum: 10/59447ec147e8f6f693c5b1b6bb9f5efeb975d249945cc69a45f93b98c3258073a4d35bbcf10c94ba4c03ab7b566f4b82f0491e243c913999a4eb8250bc176e60
   languageName: node
   linkType: hard
 
